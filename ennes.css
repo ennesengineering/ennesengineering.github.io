@@ -50,10 +50,10 @@ section{
     width: 550px;
     min-height: 300px;
     padding: 10px;
-    font-size: 14px;
+    font-size: 16px;
 }
 section #main-img{
-    width: 66%;
+    width: 60%;
 
 }
 #about-img{
@@ -64,7 +64,8 @@ section #main-img{
 }
 section #main-text{
     float: right;
-    width: 175px;
+    width: 35%;
+    padding-left: 5%;
 }
 #contact-text{
    float: left;
