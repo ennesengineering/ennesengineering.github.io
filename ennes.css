@@ -24,6 +24,9 @@ li{
     display: inline;
     vertical-align: middle;
 }
+h3{
+    color: #883615;
+}
 nav {
     width: 575px;
     height: 35px;
@@ -56,10 +59,16 @@ section #main-img{
 #about-img{
     width: 200px;
 }
+#contact-img{
+    float: right;
+}
 section #main-text{
     float: right;
     width: 175px;
-
+}
+#contact-text{
+   float: left;
+   font-weight: bold;
 }
 
 footer{
