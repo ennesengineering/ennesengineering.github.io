@@ -1,92 +1,66 @@
 body {
-    background-color: black;
-    color: #b07637;
-    font-family: Tahoma, Geneva, sans-serif;
+  background: black;
+  color: #b07637;
+  font-family: Tahoma, Geneva, sans-serif;
+  max-width: 900px;
 }
-header{
-    width: 100%;
-}
-img {
-    max-width: 100%;
-}
-a {
-    text-decoration: none;
-    color: #b07637;
-}
-a:visited{
-    color: #b07637;
-    }
-a:hover{
-    text-decoration: none;
-    color: #285271;
-    }
 
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+header {
 }
-li{
-    display: inline;
-    vertical-align: middle;
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #b07637;
+}
+a:hover {
+  background-color: #333;
+  transition: .4s;
 }
 h3{
     color: #883615;
 }
 nav {
-    max-width: 575px;
-    height: 35px;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: left;
-    border: 2px solid #285271;
-    border-radius: 7px;
-    }
-nav ul{
+  line-height:40px;
 }
-nav li{
-    line-height: 35px;
-    padding-left: 20px;
-    padding-right: 60px;
-}
-.active a{
-    color: #883615;
-}
-section{
-    width: 550px;
-    min-height: 300px;
-    padding: 10px;
-    font-size: 16px;
-}
-section #main-img{
-    width: 60%;
 
+nav ul, footer ul {
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  border: 2px solid #285271;
+  border-radius: 5px;
 }
-#about-img{
-    width: 200px;
+
+nav li {
+  display: inline;
 }
-#contact-img{
-    float: right;
+
+nav a {
+  padding: 10px .4em;
+  width: 100%;
+  font-weight: bold;
 }
-section #main-text{
-    float: right;
-    width: 35%;
-    padding-left: 5%;
+nav .active a{
+    color: #883615;
+    pointer-events: none;
+    cursor: default;
 }
-#contact-text{
-   float: left;
-   font-weight: bold;
+
+.main {
+  min-height: 200px;
+  max-width: 600px;
+  padding: .5em 0;
+  font-size: 1.25em;
 }
 
 footer{
-    width: 575px;
-    height: 25px;
-    font-size: 12px;
-    border: 2px solid #285271;
-    border-radius: 7px;
+ font-size: .8em;
 }
 footer li{
-    padding-left: 20px;
-    padding-right: 40px;
-    line-height: 25px;
-}
+    padding: .3em;
+  }
