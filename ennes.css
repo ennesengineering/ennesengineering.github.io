@@ -57,9 +57,24 @@ nav .active a{
   padding: .5em 0;
   font-size: 1.25em;
 }
-
+.inline{
+    display: inline-block;
+    width: 100%;
+}
+.inline-left{
+    width: 65%;
+    float: left;
+}
+.inline-right{
+    width: 33%;
+    float: right;
+}
+.main h4{
+    clear: both;
+}
 footer{
  font-size: .8em;
+ clear: both;
 }
 footer li{
     padding: .3em;
